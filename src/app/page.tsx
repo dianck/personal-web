@@ -8,12 +8,6 @@ import Contact from "@/components/contact";
 import Link from "next/link";
 import Image from "next/image";
 
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-    title: "Home",
-    description: "Home Page",
-}
 
 export default function Home() {
   return (
