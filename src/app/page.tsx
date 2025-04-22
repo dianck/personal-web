@@ -8,6 +8,13 @@ import Contact from "@/components/contact";
 import Link from "next/link";
 import Image from "next/image";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Home",
+    description: "Home Page",
+}
+
 export default function Home() {
   return (
     <div className="md:w-full mx-auto flex flex-col md:flex-wrap md:flex-row items-center justify-start w-full min-h-screen bg-white p-10 scroll-smooth">
